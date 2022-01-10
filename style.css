@@ -35,7 +35,7 @@ body {
     height: 15px;
     background: #fff;
     border-radius: 50%;
-    z-index: 100;
+    z-index: 100000;
 }
 
 .hour, .minute, .second {
@@ -72,5 +72,15 @@ body {
     height: 80px;
     background: #ff105e;
     z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+
+.min:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background: #1070ff;
+    z-index: 20;
     border-radius: 6px 6px 0 0;
 }
