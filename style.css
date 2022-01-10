@@ -70,7 +70,7 @@ body {
     position: absolute;
     width: 8px;
     height: 80px;
-    background: #ff105e;
+    background: #3c10ff;
     z-index: 10;
     border-radius: 6px 6px 0 0;
 }
@@ -80,7 +80,17 @@ body {
     position: absolute;
     width: 4px;
     height: 90px;
-    background: #1070ff;
+    background: #fff;
     z-index: 20;
+    border-radius: 6px 6px 0 0;
+}
+
+.sec:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 140px;
+    background: #fff;
+    z-index: 30;
     border-radius: 6px 6px 0 0;
 }
